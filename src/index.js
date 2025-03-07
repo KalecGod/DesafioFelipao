@@ -1,4 +1,4 @@
-console.log("Missões do Héroi")
+console.log("Missões do Herói")
 
 let nickName = "Talon";
 let vida ;
@@ -158,17 +158,17 @@ if(desafio===true){
 }
 if(xp <= 5000){
 
-    console.log("Héroi "+nickName +"\nRank Ouro"+"\nClasse "+classeHeroi)
+    console.log("Herói "+nickName +"\nRank Ouro"+"\nClasse "+classeHeroi)
     console.log()
 
 }else if(xp <= 7600){
 
-    console.log("Héroi "+nickName +"\nRank Ascendente"+"\nClasse "+classeHeroi)
+    console.log("Herói "+nickName +"\nRank Ascendente"+"\nClasse "+classeHeroi)
     console.log()
 
 
 }else{
-    console.log("Héroi "+nickName +"\nRank Radiante"+"\nClasse "+classeHeroi)
+    console.log("Herói "+nickName +"\nRank Radiante"+"\nClasse "+classeHeroi)
     console.log()
 
 }
