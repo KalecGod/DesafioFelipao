@@ -3,6 +3,7 @@ console.log("Missões do Héroi")
 let nickName = "Talon";
 let vida ;
 let mana;
+//let dano;
 
 console.log(nickName+ " Qual Classe você deseja Utilizar?")
 console.log("Mago ou Guerreiro")
@@ -122,8 +123,58 @@ if(desafio === true){
         console.log()
     }
 
+
 }
-console.log("Ultima missão, Desafie o BOSS'AAtrox'")
+console.log("Ultima missão, Desafie o BOSS'AAtrox' e seus Soldados")
+
+if(desafio===true){
+
+    let soldadosAatrox = 20
+
+        for(let Soldados = 1;Soldados<=soldadosAatrox;Soldados++){
+
+            xp+=100
+
+            console.log("Soldado Derrotados "+Soldados+"/"+soldadosAatrox)
+            console.log("Nível Obtido "+xp)
+            console.log()
+
+            if(Soldados === soldadosAatrox){
+
+                xp+=500;
+                console.log("Aatrox foi Derrotado e o nosso mundo esta livre do Mal")
+                console.log("Nível Obtido até o final da História "+xp+" XP")
+                console.log()
+
+                   
+
+
+            }
+            
+
+        }
+        
+
+}
+if(xp <= 5000){
+
+    console.log("Héroi "+nickName +"\nRank Ouro"+"\nClasse "+classeHeroi)
+    console.log()
+
+}else if(xp <= 7600){
+
+    console.log("Héroi "+nickName +"\nRank Ascendente"+"\nClasse "+classeHeroi)
+    console.log()
+
+
+}else{
+    console.log("Héroi "+nickName +"\nRank Radiante"+"\nClasse "+classeHeroi)
+    console.log()
+
+}
+
+
+
 
 
 
